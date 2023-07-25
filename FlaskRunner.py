@@ -67,11 +67,3 @@ if __name__ == '__main__':
     init_logger()
     runner = FlaskRunner()
     runner.start_server()
-
-    sleep(5)
-
-    runner.stop_server()
-
-    sleep(5)
-
-
